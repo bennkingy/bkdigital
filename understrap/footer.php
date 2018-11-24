@@ -23,10 +23,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="row align-items-end">
 
-<div class="col-sm-6">
+<div class="col-sm-12 col-md-6">
               <img id="logofooter" src="https://www.bkdigital.co.uk/wp-content/uploads/2018/05/bk-digital-logo.png" />
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-12 col-md-6 flex">
       <div id="socials">
       <i class="fab fa-facebook-f fa-3x"></i>
       <i class="fab fa-linkedin-in fa-3x"></i>
