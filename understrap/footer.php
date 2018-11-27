@@ -21,7 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <div class="<?php echo esc_attr( $container ); ?>">
     <footer class="site-footer" id="colophon">
 
-<div class="row align-items-end">
+<div class="row align-items-end" style="padding-top: 50px;">
 
 <div class="col-sm-12 col-md-6">
               <img id="logofooter" src="https://www.bkdigital.co.uk/wp-content/uploads/2018/05/bk-digital-logo.png" />
