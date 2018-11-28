@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="hfeed site" id="page">
 
-<header id="header" class="header header--fixed" role="banner">
+<header id="header" class="header headroom" role="banner">
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
