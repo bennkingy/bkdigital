@@ -21,12 +21,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://rawgithub.com/WickyNilliams/headroom.js/gh-pages/assets/styles/main.css" />
 </head>
 
 <body <?php body_class(); ?>>
 
 <div class="hfeed site" id="page">
 
+<header id="header" class="header header--fixed" role="banner">
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
@@ -79,3 +81,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</nav><!-- .site-navigation -->
 
 	</div><!-- #wrapper-navbar end -->
+</header>
