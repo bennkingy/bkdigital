@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="row" style="padding-top: 50px;">
 
 <div class="col-sm-12 col-md-6">
-      <img id="logofooter" src="https://www.bkdigital.co.uk/wp-content/uploads/2018/05/bk-digital-logo.png" />
+              <img id="logofooter" src="https://www.bkdigital.co.uk/wp-content/uploads/2018/05/bk-digital-logo.png" />
     </div>
     <div class="col-sm-12 col-md-6 flex">
       <div id="socials">
@@ -56,8 +56,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 (function() {
 
     var header = new Headroom(document.querySelector("#header"), {
-        tolerance: 0,
-        offset : 50,
+        tolerance: 5,
+        offset : 205,
         classes: {
           initial: "animated",
           pinned: "slideDown",
@@ -65,7 +65,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         }
     });
     header.init();
-
+    
 }());
 </script>
 
